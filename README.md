@@ -11,9 +11,9 @@ An illustration to show the design of the intended examination system.
 ## Getting Started
 
 ### Examination system design concept
+<hr>
 
- ![Examination System Wireframe](Assets/Examination_System.png "Examination System Wireframe")
-
+![Exam system wireframe](static/assets/Examination_System.png "Examination System Wireframe")
 
 
 ## Authors
