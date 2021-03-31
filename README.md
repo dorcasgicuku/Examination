@@ -12,9 +12,7 @@ An illustration to show the design of the intended examination system.
 
 ### Examination system design concept
 <hr>
-
-![Exam system wireframe](static/assets/Examination_System.png "Examination System Wireframe")
-
+[![Examination-System.png](https://i.postimg.cc/sf8gBzMt/Examination-System.png)](https://postimg.cc/PNWjcBz4)
 
 ## Authors
 
