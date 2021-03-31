@@ -1,0 +1,5 @@
+# ignore the following files
+
+# misc
+
+.DS_Store
