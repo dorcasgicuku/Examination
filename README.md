@@ -1,4 +1,4 @@
-i# Examination
+# Examination
 
 # Examination System
 
@@ -12,7 +12,7 @@ An illustration to show the design of the intended examination system.
 
 ### Examination system design concept
 
- ![Examination System Wireframe](/Assets/Examination_System.png "Examination System Wireframe")
+ ![Examination System Wireframe](Assets/Examination_System.png "Examination System Wireframe")
 
 
 
