@@ -36,3 +36,14 @@ button {
     display: table;
     clear: both;
 }
+
+.card {
+    box-shadow: 0 4px 8 px rgba(0,0,0,0.2);
+    width: 100%;
+    transition: 0.3 s;
+    padding: 15px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} 
