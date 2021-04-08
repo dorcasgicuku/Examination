@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="css/index.css" />
     <title>Examination</title>
+
+    <style type="text/css">
+        .button {
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+
+                    }
+
+            .button{background-color: #008CBA;}
+            .button{position: absolute;top: 8px;right: 16px;font-size: 18px;}
+
+    </style>
 </head>
 <body>
+
+     <div>
+            <img src="data:image/png;base64,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">
+            <h1 style="font-family:Times New Roman;font-weight:bold;font-size:30px;text-align:center;">Examination</h1>
+            <button class="button">Profile</button>
+     </div>
      <div>
         <div class="row card">
             <div class="column left">
@@ -27,21 +52,6 @@
                 <button type="button">Solve Challenge</button>
             </div>
         </div>
-        <div class="row card">
-            <div class="column left">
-                <h1>Day 3, Hello World</h1>
-                <p>Easy, Max Score 30, Success Rate: 86.24%</p>
-            </div> 
-            <div class="column right">
-                <button type="button">Solve Challenge</button>
-            </div>
-        </div>
-        <div class="row card">
-            <div class="column left">
-                <h1>Day 4, Hello World</h1>
-                <p>Easy, Max Score 30, Success Rate: 86.24%</p>
-            </div>
-            <div class="column right"> 
                 <button type="button">Solve Challenge</button >
             </div>
         </div>
@@ -58,6 +68,21 @@
             <div class="column left">
                 <h1>Day 6, Hello World</h1>
                 <p>Easy, Max Score 30, Success Rate: 86.24%</p>
+        <div class="row card">
+            <div class="column left">
+                <h1>Day 3, Hello World</h1>
+                <p>Easy, Max Score 30, Success Rate: 86.24%</p>
+            </div> 
+            <div class="column right">
+                <button type="button">Solve Challenge</button>
+            </div>
+        </div>
+        <div class="row card">
+            <div class="column left">
+                <h1>Day 4, Hello World</h1>
+                <p>Easy, Max Score 30, Success Rate: 86.24%</p>
+            </div>
+            <div class="column right"> 
             </div>
             <div class="column middle">  
                 <button type="button">Solve Challenge</button>
@@ -66,3 +91,4 @@
     </div>    
 </body>
 </html>
+		
