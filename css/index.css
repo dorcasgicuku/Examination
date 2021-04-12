@@ -17,7 +17,7 @@ button {
     width: 295px;
 } 
 
-
+/* 
 .column {
     float:left;
     padding: 10px;
@@ -31,19 +31,53 @@ button {
     width: 25%;
 }
 
-.row::after {
+.tile::after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
-.card {
+.tile {
     box-shadow: 0 4px 8 px rgba(0,0,0,0.2);
     width: 100%;
     transition: 0.3 s;
     padding: 15px;
+    float:left;
 }
 
-.card:hover{
+.tile:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 } 
+
+.tile.tile-left {
+    width: 25%;
+}
+
+.tile.tile-right{
+    width: 25%;
+    float:right;
+
+}
+
+.tile::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float:left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
