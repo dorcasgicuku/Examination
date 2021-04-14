@@ -23,7 +23,7 @@ button {
     clear:both;
     }
 
-.quiz-navigation {
+.column {
     flex: 70%;
     padding: 10px;
 }
