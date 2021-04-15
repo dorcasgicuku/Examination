@@ -16,21 +16,70 @@ button {
     height: 60px;
     width: 295px;
 } 
+.question-tab {
+    column-count: 2;
+    margin-right:180px;
+    text-align:center;
+    display:inline-flex;
+}
 
+.column {
+    padding:10px;
+    float:left;
+    flex:70%;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: -150px;
+}
+
+
+.row:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.sidebar{
+    margin-top: 10px;
+    padding-left: 150px;
+    /* margin:inherit; */
+}
+
+.submit-button {
+    padding-left: 180px;
+}
+
+.f
+/* 
+.column .sidebar {
+    flex:1;
+    padding:1em;
+} */
+
+/* .sidebar {
+    float:right;
+    clear:both;
+    display: table-column;
+    margin-top:0;
+} */
 /* .full-row::after{
     content: "";
     display:table;
     clear:both;
     } */
 
-.full-row {
+/* .full-row {
     display: flex;
 }
 .column {
     flex: 70%;
     padding: 10px;
     width: 70%;
-}
+} */
 /* 
 .column {
     float:left;
