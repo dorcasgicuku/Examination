@@ -1,7 +1,7 @@
 
 /* styling for the examination page footer section */
 .footer{
-	position: fixed;
+	position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -35,7 +35,7 @@
         height: 100px;
 }
 
-/*button {
+button {
     background-color: #ffffff;
     color: darkseagreen;
     border: 2px solid seagreen;
@@ -43,16 +43,16 @@
     font-size:18px;
     text-align: center;
     padding: 15px 20px;
-    margin: 4px 4px*/;
+    margin: 4px 4px;
     /* margin-bottom: 8px; */
     height: 75px;
-/*    width: 178px;
+    width: 178px;
 }
-*/
-/* h2, p {
+
+ h2, p {
     height: 60px;
     width: 295px;
-}*/ 
+} 
 .question-tab {
     column-count: 2;
     margin-right:180px;
