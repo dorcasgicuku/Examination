@@ -1,3 +1,4 @@
+
 /* styling for the examination page footer section */
 .footer{
 	position: fixed;
@@ -33,3 +34,71 @@
         padding-top: 10px;
         height: 100px;
 }
+
+/*button {
+    background-color: #ffffff;
+    color: darkseagreen;
+    border: 2px solid seagreen;
+    text-decoration: none;
+    font-size:18px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 4px 4px*/;
+    /* margin-bottom: 8px; */
+    height: 75px;
+/*    width: 178px;
+}
+*/
+/* h2, p {
+    height: 60px;
+    width: 295px;
+}*/ 
+.question-tab {
+    column-count: 2;
+    margin-right:180px;
+    text-align:center;
+    display:inline-flex;
+}
+
+.column {
+    padding:10px;
+    float:left;
+    flex:70%;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: -150px;
+}
+
+
+.row:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.sidebar{
+    margin-top: 10px;
+    padding-left: 150px;
+    /* margin:inherit; */
+}
+
+.submit-button {
+    padding-left: 180px;
+}
+
+.card {
+    box-shadow: 0 7px 16 px rgba(0,0,0,0.2);
+    width: 80%;
+    transition: 0.3 s;
+    padding: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} 
+
+
