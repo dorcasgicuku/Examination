@@ -29,10 +29,11 @@
     height:100px;
 }
 .contact{
-        float:center
-        width:50%;
+        float: none;
+        width: 50%;
         padding-top: 10px;
         height: 100px;
+        
 }
 
 button {
