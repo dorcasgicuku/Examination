@@ -59,6 +59,8 @@ button {
     margin-right:180px;
     text-align:center;
     display:inline-flex;
+    margin-left: 100px;
+    background-color: white;
 }
 
 .column {
@@ -68,6 +70,7 @@ button {
     width: 80%;
     margin-left: 20px;
     margin-right: -150px;
+    /* background-color: white; */
 }
 
 
@@ -77,14 +80,33 @@ button {
     clear:both;
 }
 
+.full-row{
+    background-color: whitesmoke;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid whitesmoke;
+    border-radius:3px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 .sidebar{
     margin-top: 10px;
-    padding-left: 150px;
+    padding-right: 300px;
+    height:100%;
+    width: auto;
+    position:fixed;
+    /* z-index: 1; */
+    top:0;
+    right:0;
+    overflow-x: hidden;
     /* margin:inherit; */
+}
+
+.setposition{
+    margin-right:auto;
+    padding:0,10px;
 }
 
 .submit-button {
@@ -93,7 +115,7 @@ button {
 
 .card {
     box-shadow: 0 7px 16 px rgba(0,0,0,0.2);
-    width: 80%;
+    width: auto;
     transition: 0.3 s;
     padding: 15px;
 }
