@@ -3,7 +3,8 @@
         padding: none;
         font-family: sans-serif;
         background-color: #808080;
-        font-size: 15px; 
+        font-size: 15px;
+        /* padding-top:0px;  */
 	    } 
 
 .image{
@@ -27,6 +28,7 @@
         background-color:  #000000;
         overflow: hidden;
 }
+
 
 .button{background-color: #3c3c3c00;}
 .button{position: absolute;top: 25px;right: 16px;font-size: 20px;}
