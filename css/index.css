@@ -134,9 +134,10 @@ hr.solid {
 }
 
 .image {
+  display: flex;
   position: absolute;
-  top: 25px;
-  right: 150px;
+  top: 20px;
+  right: 120px;
   padding: none;
   width: 40px;
   height: 40px;
@@ -145,8 +146,8 @@ hr.solid {
 .button {
   border: none;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
+  padding: 0px;
+  text-align: right;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -161,7 +162,7 @@ hr.solid {
 }
 .button {
   position: absolute;
-  top: 25px;
+  top: 18px;
   right: 16px;
   font-size: 20px;
 }
