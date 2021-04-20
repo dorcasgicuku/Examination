@@ -21,10 +21,10 @@ p {
 }
 .question-tab {
   column-count: 2;
-  margin-right: 180px;
+  margin-right: 100px;
   text-align: center;
   display: inline-flex;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   background-color: white;
 }
 
@@ -57,7 +57,7 @@ p {
 }
 .sidebar {
   margin-top: 10px;
-  padding-right: 300px;
+  padding-right: 150px;
   height: 100%;
   width: auto;
   position: fixed;
@@ -80,7 +80,8 @@ p {
 
 .card {
   box-shadow: 0 7px 16 px rgba(0, 0, 0, 0.2);
-  width: auto;
+  /* width: auto; */
+  width: 100%;
   transition: 0.3 s;
   padding: 15px;
 }
