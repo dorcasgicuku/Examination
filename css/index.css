@@ -10,14 +10,24 @@ button {
   padding: 15px 20px;
   margin: 4px 4px;
   /* margin-bottom: 8px; */
-  height: 75px;
+  height: 55px;
   width: 178px;
+  align-items: flex-end;
+  margin-left:270px;
 }
 
+
+h1 {
+  /* padding-top:40px; */
+  /* margin-top:40px; */
+  text-align:center;
+}
 h2,
 p {
   height: 60px;
   width: 295px;
+  /* text-align:center; */
+  padding-left: 15px;
 }
 .question-tab {
   column-count: 2;
@@ -26,6 +36,13 @@ p {
   display: inline-flex;
   /* margin-left: 100px; */
   background-color: white;
+  /* align-items: center; */
+  padding-top:30px;
+  line-height: 0.9;
+}
+
+.question {
+  padding-top: 30px;
 }
 
 .column {
@@ -60,8 +77,8 @@ p {
   padding-right: 150px;
   height: 100%;
   width: auto;
-  position: fixed;
-  /* z-index: 1; */
+  position:absolute;
+  z-index: 1;
   /* top:0; */
   right: 0;
   overflow-x: hidden;
@@ -84,6 +101,7 @@ p {
   width: 100%;
   transition: 0.3 s;
   padding: 15px;
+  align-items: center;
 }
 
 .card:hover {
