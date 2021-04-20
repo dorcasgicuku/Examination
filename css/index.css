@@ -127,20 +127,29 @@ hr.solid {
   background-color: #808080;
   font-size: 15px;
   clear: both;
-  /* padding-top:0px;  */
+  padding-top:20px; 
   overflow-x: hidden;
   width: 100%;
 
 }
 
-.image {
+.image{
   display: flex;
-  position: absolute;
+  position:absolute;
   top: 20px;
   right: 120px;
   padding: none;
   width: 40px;
   height: 40px;
+}
+
+.image1 {
+  display:flex;
+  position: absolute;
+  /* top:20px; */
+  padding:none;
+  width:auto;
+  height:50px;
 }
 
 .button {
