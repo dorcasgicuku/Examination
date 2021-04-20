@@ -97,6 +97,9 @@ color:black;
 font-weight:lighter;
 }
 
+hr.solid {
+  border-top: 1px solid #bbb;
+}
 /* styling for the
  examination page menu */
 .header {
