@@ -130,7 +130,7 @@ hr.solid {
   /* padding-top:0px;  */
   overflow-x: hidden;
   width: 100%;
-  padding-top: 45px;
+
 }
 
 .image {
@@ -138,6 +138,8 @@ hr.solid {
   top: 25px;
   right: 150px;
   padding: none;
+  width: 40px;
+  height: 40px;
 }
 
 .button {
