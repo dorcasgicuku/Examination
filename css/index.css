@@ -9,17 +9,29 @@
 .solution-section {
   float: right;
   padding: 10px;
+  height: 420px;
+  width: 607px;
 
 }
 .question-section {
   float:left;
   padding: 10px;
+  height: 650px;
+  width:607px;
 }
 
 .code-output {
+  height: 197px;
+  width: 607px;
   float: right;
   padding: 10px;
 }
+
+/* .code-output {
+  float: right;
+  padding: 10px;
+  width: 50%
+} */
 
 
 
