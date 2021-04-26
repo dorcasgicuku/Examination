@@ -27,6 +27,12 @@
   padding: 10px;
 }
 
+/* body styling goes here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 /* .code-output {
   float: right;
   padding: 10px;
