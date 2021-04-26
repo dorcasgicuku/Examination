@@ -1,3 +1,27 @@
+/* new code now goes here */
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.solution-section {
+  float: right;
+  padding: 10px;
+
+}
+
+.code-output {
+  float: right;
+  padding: 10px;
+}
+
+.question-section {
+  float:left;
+  padding: 10px;
+}
+
 /* Styling 
 for the body */
 /* button {
