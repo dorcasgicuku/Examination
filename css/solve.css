@@ -1,4 +1,32 @@
+/* new code now goes here */
+/* code to display the question, solution and code output section */
 
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .solution-section {
+    float: right;
+    padding: 10px;
+    height: 420px;
+    width: 607px;
+  
+  }
+  .question-section {
+    float:left;
+    padding: 10px;
+    height: 650px;
+    width:607px;
+  }
+  
+  .code-output {
+    height: 197px;
+    width: 607px;
+    float: right;
+    padding: 10px;
+  }
   .element-style {
       height:60px;
       width: 295px;
