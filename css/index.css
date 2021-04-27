@@ -1,0 +1,208 @@
+/* Styling 
+for the body */
+button {
+  background-color: #ffffff;
+  color: darkseagreen;
+  border: 2px solid seagreen;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 20px;
+  margin: 4px 4px;
+  /* margin-bottom: 8px; */
+  height: 55px;
+  width: 178px;
+  align-items: flex-end;
+  margin-left:270px;
+}
+
+
+h1 {
+  /* padding-top:40px; */
+  /* margin-top:40px; */
+  text-align:center;
+}
+h2,
+p {
+  height: 60px;
+  width: 295px;
+  /* text-align:center; */
+  padding-left: 15px;
+}
+.question-tab {
+  column-count: 2;
+  margin-right: 100px;
+  text-align: center;
+  display: inline-flex;
+  /* margin-left: 100px; */
+  background-color: white;
+  /* align-items: center; */
+  padding-top:30px;
+  line-height: 0.9;
+}
+
+.question {
+  padding-top: 30px;
+}
+
+.column {
+  padding: 10px;
+  float: left;
+  flex: 70%;
+  width: 80%;
+  margin-left: 20px;
+  margin-right: -150px;
+  /* background-color: white; */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.full-row {
+  background-color: whitesmoke;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 3px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.sidebar {
+  margin-top: 10px;
+  padding-right: 150px;
+  height: 100%;
+  width: auto;
+  position:absolute;
+  z-index: 1;
+  /* top:0; */
+  right: 0;
+  overflow-x: hidden;
+  /* margin:inherit; */
+  clear: both;
+}
+
+.setposition {
+  margin-right: auto;
+  padding: 0, 10px;
+}
+
+.submit-button {
+  padding-left: 180px;
+}
+
+.card {
+  box-shadow: 0 7px 16 px rgba(0, 0, 0, 0.2);
+  /* width: auto; */
+  width: 100%;
+  transition: 0.3 s;
+  padding: 15px;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: whitesmoke;
+  color: rgb(32, 187, 32);
+}
+
+p{
+color:black;
+font-weight:lighter;
+}
+
+hr.solid {
+  border-top: 1px solid whitesmoke;
+  width: auto;
+}
+/* styling for the
+ examination page menu */
+.header {
+  padding: none;
+  font-family: sans-serif;
+  background-color: #c3b9b9;
+  font-size: 15px;
+  clear: both;
+  padding-top:20px; 
+  overflow-x: hidden;
+  width: 100%;
+
+}
+
+.image{
+  display: flex;
+  position:absolute;
+  top: 20px;
+  right: 120px;
+  padding: none;
+  width: 40px;
+  height: 40px;
+}
+
+.image1 {
+  display:flex;
+  position: absolute;
+  /* top:20px; */
+  padding:none;
+  width:auto;
+  height:50px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px;
+  cursor: pointer;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.button {
+  background-color: #3c3c3c00;
+}
+.button {
+  position: absolute;
+  top: 18px;
+  right: 16px;
+  font-size: 20px;
+}
+
+/* styling for the 
+examination page footer section */
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c3b2b2;
+  color: #000004;
+  text-align: left;
+}
+/* Create three equal columns that floats next to each other */
+.email {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 100px;
+}
+.location {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  height: 100px;
+}
+.contact {
+  float: none;
+  width: 50%;
+  padding-top: 10px;
+  height: 100px;
+}
