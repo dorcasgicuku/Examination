@@ -38,6 +38,23 @@
     margin: 0;
   }
  
+  button {
+    background-color: #ffffff;
+    /* color: darkseagreen; */
+    /* border: 2px solid seagreen; */
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 4px 4px;
+    /* margin-bottom: 8px; */
+    height: 55px;
+    width: 178px;
+    align-items: flex-end;
+    margin-left:270px;
+    cursor:pointer;
+  }
+
   /* styling for the
    examination page menu */
   .header {
