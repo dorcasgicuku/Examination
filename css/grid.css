@@ -4,4 +4,8 @@
          width: 30%;
          border-collapse: collapse;
          border: 1px solid black;
+         border-collapse: collapse;
+}
+.th{
+	height: 30px;
 }
