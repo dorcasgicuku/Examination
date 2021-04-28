@@ -1,7 +1,7 @@
 /*styling the question grid*/
 
 .table {
-         width: 100%;
+         width: 30%;
          border-collapse: collapse;
          border: 1px solid black;
 }
