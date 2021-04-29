@@ -19,6 +19,7 @@
     padding: 10px;
     height: 650px;
     width:607px;
+    overflow:hidden;
   }
   
   .code-output {
