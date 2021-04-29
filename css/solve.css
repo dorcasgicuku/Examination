@@ -20,6 +20,7 @@
     height: 650px;
     width:607px;
     overflow:hidden;
+    overflow-y:scroll;
   }
   
   .code-output {
