@@ -1,11 +1,21 @@
 /*styling the question grid*/
-
-.table {
-         width: 30%;
-         border-collapse: collapse;
-         border: 1px solid black;
-         border-collapse: collapse;
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
 }
-.th{
-	height: 30px;
+table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  height: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
