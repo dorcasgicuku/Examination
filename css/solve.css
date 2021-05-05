@@ -209,6 +209,18 @@ body {
     align-items: center;
   }
 
+
+  .solution-navigation {
+    background-color: steelblue;
+    overflow:hidden;
+    width: auto;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+    display: flex;
+    margin-left: -20px;
+  }
   /* .tab-navigation button {
     background-color: inherit;
     float: left;
