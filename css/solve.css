@@ -188,17 +188,45 @@ body {
     overflow: hidden;
     width: auto;
     height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+    display:flex;
   }
 
-  .topnavigation a {
+  .tablinks {
+   background-color: inherit;
     float: left;
-    color: white;
-    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-
+    font-size: 17px;
+    width: 50%;
+    height: inherit;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
   }
+
+  /* .tab-navigation button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+
+  .tab-navigation button:hover {
+    background-color: steelblue;
+  }
+  
+  .tab-navigation button.active {
+    background-color: #ccc;
+  } */
 /* 
   .topnavigation a:hover {
     background-color: #ddd;
