@@ -94,13 +94,13 @@ body {
    examination page menu */
   .header_section {
     padding: none;
-    font-family:sans-serif;
+    font-family: sans-serif;
     background-color:#c3b9b9;
-    font-size:15px;
+    font-size: 15px;
     clear:both;
     padding-top:20px; 
-    overflow-x:hidden;
-    width:100%;
+    overflow-x: hidden;
+    width : 100%;
   }
   
   .image {
