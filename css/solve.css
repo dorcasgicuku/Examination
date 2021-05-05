@@ -177,3 +177,8 @@ body {
     height: 100px;
   }
   
+  /* additional styling for the page */
+  .column {
+    float: left;
+    width: 25%;
+  }
