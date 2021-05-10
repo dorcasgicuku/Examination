@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.first_column, .second_column {
+    float: left;
+    padding: 10px;
+    width: 50%;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.question_section {
+    height: 650px;
+    width: 607px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.solution_section {
+    height: 420px;
+    width: 607px;
+}
+
+.code_output {
+    height: 197px;
+    width: 607px;
+}
