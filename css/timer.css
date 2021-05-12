@@ -1,0 +1,18 @@
+/* styling the timer*/
+
+.clock{
+	width: 25px;
+    margin: 0 10px 0 0;
+    flex: 0 0 auto;
+}
+
+.timer{
+	font-size: 14px;
+	position: right;
+}
+
+.countdown{
+	margin: 0 15px 0 0;
+    border-radius: 0 0 4px 4px;
+   
+}

@@ -74,7 +74,7 @@ p {
 }
 .sidebar {
   margin-top: 10px;
-  padding-right: 150px;
+  padding-right: 55px;
   height: 100%;
   width: auto;
   position:absolute;
@@ -110,7 +110,28 @@ tr:nth-child(even) {
   margin-right: auto;
   padding: 0, 10px;
 }
+/*styling the question grid*/
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: auto;
+  margin-top: 30px;
+}
 
+th, td {
+  padding: 15px;
+}
+
+th {
+  height: 40px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 .submit-button {
   padding-left: 180px;
 }
