@@ -246,3 +246,7 @@ examination page footer section */
   padding-top: 10px;
   height: 100px;
 }
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
