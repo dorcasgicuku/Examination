@@ -74,7 +74,7 @@ p {
 }
 .sidebar {
   margin-top: 10px;
-  padding-right: 55px;
+  padding-right: 9px;
   height: 100%;
   width: auto;
   position:absolute;
@@ -225,7 +225,7 @@ examination page footer section */
   bottom: 0;
   width: 100%;
   background-color: #022046;
-  color: #000004;
+  color: white;
   text-align: left;
 }
 /* Create three equal columns that floats next to each other */
