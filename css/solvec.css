@@ -20,16 +20,19 @@
     width: 607px;
     overflow: hidden;
     overflow-y: scroll;
+    background-color:steelblue;
 }
 
 .solution_section {
     height: 420px;
     width: 607px;
+    background-color:steelblue;
 }
 
 .code_output {
     height: 197px;
     width: 607px;
+    background-color: steelblue;
 }
 
 #Query, #hint, #video, #Scribblepad{
@@ -54,4 +57,21 @@
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+}
+/* .btn_block {
+    width: 100%;
+} */
+
+.pill_nav {
+    display:inline-block;
+    width: inherit;
+    background-color:#022c46;
+}
+
+.resize {
+    margin-left: 100px;
+}
+
+.position_button {
+    margin-left: 400px;
 }
