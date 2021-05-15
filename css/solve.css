@@ -221,6 +221,79 @@ body {
     display: flex;
     margin-left: -20px;
   }
+
+  .tab-navigation {
+    position: relative;
+    margin: 3rem 0;
+    background: steelblue;
+    height: auto;
+    margin:0;
+  }
+
+  .tab-navigation::before,
+  .tab-navigation::after{
+    content: "";
+    display: table;
+  }
+
+  .tab-navigation {
+    clear:both;
+  }
+
+  .tab-navigation{
+    float: left;
+  }
+
+  .switch-tabs {
+    display:none;
+  }
+
+  .label-tab {
+    position: relative;
+    display:block;
+    line-height: 2.75em;
+    height: 3em;
+    padding: 0 1.618em;
+    background: steelblue;
+    cursor: pointer;
+    /* border-right: 0.125rem solid  */
+    color: #fff;
+    top: 0;
+    transition: all 0.25s;
+    border-right: 0.125rem solid steelblue;
+  }
+
+  .label-tab:hover{
+    background-color: purple;
+  }
+
+  .tab-content {
+    position: absolute;
+    z-index: 1;
+    top: 2.75em;
+    left: 0;
+    padding: 1.618rem;
+    background: steelblue;
+    color:white;
+    opacity: 0;
+    transition:all 0.35;
+    width: fit-content;
+  }
+
+  .switch-tabs:checked + .label-tab {
+    background-color: steelblue;
+    color:white;
+    border-bottom: 0;
+    transition:all 0.35s;
+    z-index:1;
+    top: -0.0625rem;
+  }
+
+  .switch-tabs:checked + label + .tab-content {
+    z-index: 2;
+    opacity: 1;
+    transition:all 0.35s;
+  }
   /* .tab-navigation button {
     background-color: inherit;
     float: left;
