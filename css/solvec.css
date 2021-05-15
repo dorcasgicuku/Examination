@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .first_column, .second_column {
     float: left;
     padding: 10px;
@@ -75,3 +80,24 @@
 .position_button {
     margin-left: 400px;
 }
+
+.display_content {
+    color: white;
+    padding: 20px;
+}
+
+.function_display {
+    color: lightskyblue;
+}
+
+.style_pre {
+    background-color: #022c46;
+    text-align:left;
+    /* margin-left: -250px; */
+    width: inherit;
+    margin-left:-20px;
+    height: 75px;
+    padding:10px;
+    margin-left: 5px;
+}
+
