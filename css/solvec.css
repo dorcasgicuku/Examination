@@ -31,3 +31,27 @@
     height: 197px;
     width: 607px;
 }
+
+#Query, #hint, #video, #Scribblepad{
+    background-color: #022c46;
+}
+
+.tab_content {
+    color: black;
+    display:none;
+    padding:20px;
+    width: auto;
+    height: 100%;
+}
+
+.tab_link{
+    background-color: #022c46;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
