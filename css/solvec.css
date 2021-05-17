@@ -20,26 +20,34 @@ body {
     clear: both;
 }
 
+/* styles the left column of the examination page */
 .question_section {
-    height: 650px;
-    width: 607px;
+    height: 690px;
+    width: 635px;
     overflow: hidden;
     overflow-y: scroll;
     background-color:steelblue;
+    margin-left:-5px;
 }
 
+/* styles the top right column of the examination page */
 .solution_section {
     height: 420px;
     width: 607px;
     background-color:steelblue;
+    margin-left: 10px;
+    margin-right: -10px;
 }
 
+/* styles the bottom right column of the examination page */
 .code_output {
-    height: 197px;
+    height: 250px;
     width: 607px;
     background-color: steelblue;
+    margin-left:10px;
 }
 
+/*styles the navigation buttons of the question section */
 #Query, #hint, #video, #Scribblepad{
     background-color: #022c46;
 }
@@ -52,6 +60,7 @@ body {
     height: 100%;
 }
 
+/*additional styling for the navigation buttons */
 .tab_link{
     background-color: #022c46;
     color: white;
