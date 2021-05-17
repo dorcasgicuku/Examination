@@ -110,3 +110,31 @@ body {
     margin-left: 5px;
 }
 
+/* styling the accordion */
+.accordion {
+    background-color: #15314b;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size:15px;
+    transition: 0.5s;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color:#15314b;
+    overflow: hidden;
+}
+
+.accordion::after {
+    content: '\0002b';
+    color: #777;
+    font-weight: bold;
+    float:right;
+    margin-left: 5px;
+}
