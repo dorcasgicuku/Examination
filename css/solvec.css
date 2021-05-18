@@ -26,7 +26,7 @@ body {
     width: 635px;
     overflow: hidden;
     overflow-y: scroll;
-    background-color:steelblue;
+    background-color:#001528;
     margin-left:-5px;
 }
 
@@ -34,7 +34,7 @@ body {
 .solution_section {
     height: 420px;
     width: 607px;
-    background-color:steelblue;
+    background-color:#001528;
     margin-left: 10px;
     margin-right: -10px;
 }
@@ -43,7 +43,7 @@ body {
 .code_output {
     height: 250px;
     width: 607px;
-    background-color: steelblue;
+    background-color:#001528;
     margin-left:10px;
 }
 
@@ -137,4 +137,31 @@ body {
     font-weight: bold;
     float:right;
     margin-left: 5px;
+}
+
+
+textarea {
+    width: inherit;
+    float:top;
+    overflow: scroll;
+    margin: auto;
+    display: inline-block;
+    background: #001528;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    /* height: inherit; */
+    color: white;
+    overflow: hidden;
+    height:370px;
+    border-top: none;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+
+.outlook {
+    resize:both;
+    overflow: auto;
 }
