@@ -14,6 +14,7 @@ button {
   width: 178px;
   align-items: flex-end;
   margin-left:270px;
+  cursor:pointer;
 }
 
 
@@ -170,7 +171,6 @@ hr.solid {
   padding-top:20px; 
   overflow-x: hidden;
   width: 100%;
-
 }
 
 .image{
