@@ -166,9 +166,8 @@ hr.solid {
   padding: none;
   font-family: sans-serif;
   background-color: #083875;
-  font-size: 15px;
+  font-size: 10px;
   clear: both;
-  padding-top:20px; 
   overflow-x: hidden;
   width: 100%;
 }
@@ -176,7 +175,7 @@ hr.solid {
 .image{
   display: flex;
   position:absolute;
-  top: 20px;
+  top: 4px;
   right: 120px;
   padding: none;
   width: 40px;
@@ -211,8 +210,8 @@ hr.solid {
 }
 .button {
   position: absolute;
-  top: 18px;
-  right: 16px;
+  top: 1px;
+  right: 20px;
   font-size: 20px;
 }
 
