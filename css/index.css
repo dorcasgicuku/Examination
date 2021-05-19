@@ -171,15 +171,6 @@ hr.solid {
   overflow-x: hidden;
   width: 100%;
 }
-.header.one{
-  padding-top: 25px;
-  font-family: sans-serif;
-  background-color: grey;
-  font-size: 10px;
-  clear: both;
-  overflow-x: hidden;
-  width: 100%;
-}
 
 .image{
   display: flex;
@@ -194,10 +185,20 @@ hr.solid {
 .image1 {
   display:flex;
   position: absolute;
-  /* top:20px; */
+  top:52px;
   padding:none;
   width:auto;
   height:50px;
+}
+.header1 {
+  padding: none;
+  font-family: sans-serif;
+  background-color: #f7f6f6;
+  font-size: 10px;
+  clear: both;
+  overflow-x: hidden;
+  width: 100%;
+  padding-top: 25px;
 }
 
 .button {
@@ -222,6 +223,11 @@ hr.solid {
   top: 1px;
   right: 20px;
   font-size: 20px;
+}
+.bButton {
+  right:20px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 /* styling for the 
