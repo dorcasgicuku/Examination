@@ -171,6 +171,15 @@ hr.solid {
   overflow-x: hidden;
   width: 100%;
 }
+.header.one{
+  padding-top: 25px;
+  font-family: sans-serif;
+  background-color: grey;
+  font-size: 10px;
+  clear: both;
+  overflow-x: hidden;
+  width: 100%;
+}
 
 .image{
   display: flex;
