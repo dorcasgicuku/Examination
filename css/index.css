@@ -166,9 +166,8 @@ hr.solid {
   padding: none;
   font-family: sans-serif;
   background-color: #083875;
-  font-size: 15px;
+  font-size: 10px;
   clear: both;
-  padding-top:20px; 
   overflow-x: hidden;
   width: 100%;
 }
@@ -176,7 +175,7 @@ hr.solid {
 .image{
   display: flex;
   position:absolute;
-  top: 20px;
+  top: 4px;
   right: 120px;
   padding: none;
   width: 40px;
@@ -186,10 +185,20 @@ hr.solid {
 .image1 {
   display:flex;
   position: absolute;
-  /* top:20px; */
+  top:52px;
   padding:none;
   width:auto;
   height:50px;
+}
+.header1 {
+  padding: none;
+  font-family: sans-serif;
+  background-color: #f7f6f6;
+  font-size: 10px;
+  clear: both;
+  overflow-x: hidden;
+  width: 100%;
+  padding-top: 25px;
 }
 
 .button {
@@ -211,8 +220,14 @@ hr.solid {
 }
 .button {
   position: absolute;
-  top: 18px;
-  right: 16px;
+  top: 1px;
+  right: 20px;
+  font-size: 20px;
+}
+.submit{
+  position: absolute;
+  top: 1px;
+  right: 20px;
   font-size: 20px;
 }
 
