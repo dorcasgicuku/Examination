@@ -17,18 +17,45 @@
     </div>
         <div class="feedback">
 	       <form>
-                Student Name:  <input type="text" name="studentname"/><br><br>
-                Registration:  <input type="text" name="registration"/><br><br>
-                Exam Title:    <input type="text" name="examtitle"/><br><br>
-                Exam Code:     <input type="text" name="examcode"/><br><br>
-                Instructor Name: <input type="text" name="instructorname"><br><br>
+            <div class="group">
+                <label for="Name" class="label">Student Name</label>
+                <div class="input">
+                    <input type="text" name="studentname" required>
+                </div>
+            </div>
+            <div class="group">
+                <label for="Registration" class="label">Registration</label>
+                <div class="input">
+                    <input type="text" name="registration" required>
+                </div>
+            </div>
+            <div class="group">
+                <label for="Exam" class="label">Exam Title</label>
+                <div class="input">
+                    <input type="text" name="examtitle" required>
+                </div>
+            </div>
+            <div class="group">
+                <label for="Exam" class="label">Exam Code</label>
+                <div class="input">
+                    <input type="text" name="examcode" required>
+                </div>
+            </div>
+            <div class="group">
+                <label for="name" class="label">Instructor Name</label>
+                <div class="input">
+                    <input type="text" name="instructorname" required>
+                </div>
+            </div>
                     <label for="gender">Gender: </label>
                        <input type="radio" id="gender" name="gender" value="male"/> Male
                        <input type="radio" id="gender" name="gender" value="female"/> Female<br> <br>
                         Leave a Comment:<br/>
                             <textarea rows="7" cols="40">
                             </textarea><br><br>
-                        <input type="submit" value="Submit">
+                        <div class="btn">
+                            <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+                        </div>
            </form>
         </div>
 

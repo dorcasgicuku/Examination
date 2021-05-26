@@ -28,5 +28,27 @@ background-color: #e8e6d1;
 padding-bottom: 3%;
 border: 1px solid black;
 border-radius: 0.25rem;
-text-align: center;
+text-align: center;   
+}
+.input {
+    position: relative;
+    
+}
+.group {
+    margin-bottom: 1rem;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #f1f5f9;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #0a7dea;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
