@@ -175,7 +175,7 @@ hr.solid {
 .image{
   display: flex;
   position:absolute;
-  top: 29%;
+  top: 15%;
   right: 10%;
   padding: none;
   width: 40px;
@@ -220,7 +220,7 @@ hr.solid {
 }
 .button {
   position: absolute;
-  top: 27%;
+  top: 15%;
   right: 3%;
   font-size: 20px;
 }
@@ -262,6 +262,8 @@ examination page footer section */
   height: 100px;
 }
 a:link {
-  color: red;
   background-color: transparent;
   text-decoration: none;
+  font-size: medium;
+  color: white;
+}
