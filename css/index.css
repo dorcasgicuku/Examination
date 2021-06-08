@@ -175,8 +175,8 @@ hr.solid {
 .image{
   display: flex;
   position:absolute;
-  top: 4px;
-  right: 120px;
+  top: 29%;
+  right: 10%;
   padding: none;
   width: 40px;
   height: 40px;
@@ -220,8 +220,8 @@ hr.solid {
 }
 .button {
   position: absolute;
-  top: 1px;
-  right: 20px;
+  top: 27%;
+  right: 3%;
   font-size: 20px;
 }
 .submit{
