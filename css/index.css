@@ -1,3 +1,47 @@
+
+header .banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px;
+  background-color: blue;
+  margin: 0;
+  color: white;
+}
+
+header .left_section a {
+  padding: 0 10px;
+}
+
+header .right_section {
+  display: flex;
+}
+.profile_avatar {
+  padding-left: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.logo_size{
+  height: 40px;
+  width: auto;
+}
+
+.title {
+  padding-top: 20px;
+  text-align: center;
+  padding-right: 800px;
+}
+
+body {
+  margin: 0;
+}
 /* Styling 
 for the body */
 button {
@@ -160,46 +204,7 @@ hr.solid {
   border-top: 1px solid whitesmoke;
   width: auto;
 }
-/* styling for the
- examination page menu */
-.header {
-  padding: none;
-  font-family: sans-serif;
-  background-color: #083875;
-  font-size: 10px;
-  clear: both;
-  overflow-x: hidden;
-  width: 100%;
-}
 
-.image{
-  display: flex;
-  position:absolute;
-  top: 15%;
-  right: 10%;
-  padding: none;
-  width: 40px;
-  height: 40px;
-}
-
-.image1 {
-  display:flex;
-  position: absolute;
-  top:52px;
-  padding:none;
-  width:auto;
-  height:50px;
-}
-.header1 {
-  padding: none;
-  font-family: sans-serif;
-  background-color: #f7f6f6;
-  font-size: 10px;
-  clear: both;
-  overflow-x: hidden;
-  width: 100%;
-  padding-top: 25px;
-}
 
 .button {
   border: none;
@@ -266,4 +271,4 @@ a:link {
   text-decoration: none;
   font-size: medium;
   color: white;
-}
+}  
