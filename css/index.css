@@ -38,6 +38,11 @@ nav {
   text-align: center;
   padding-right: 800px;
 }
+.p{
+  text-align: right;
+  font-size: 60px;
+  margin-top: 0px;
+}
 
 body {
   margin: 0;
@@ -262,7 +267,7 @@ examination page footer section */
   margin-top: 5px;
 }
 .footer_links{
-  float: right;
+  float: right;     
   padding: 10px;
   height: 100px;
   width: 750px;
